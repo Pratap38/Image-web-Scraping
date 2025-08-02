@@ -2,7 +2,7 @@ import requests
 import re
 import os  # used for directory creation and path handling
 
-user = input("Enter the number: ")
+user = input("Enter the image you want to search: ")
 user_agent = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
 }
